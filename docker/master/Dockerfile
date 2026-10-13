@@ -14,7 +14,8 @@ ARG TOKEN
 #   freeswitch-meta-vanilla
 #   freeswitch-meta-sorbet
 #   freeswitch-meta-all-dbg
-ARG FS_META_PACKAGE=freeswitch-meta-all
+#   freeswitch-meta-all
+ARG FS_META_PACKAGE=freeswitch-meta-sorbet
 
 # Source Dockerfile:
 # https://github.com/docker-library/postgres/blob/master/9.4/Dockerfile
